@@ -6,10 +6,10 @@ argument-hint: <SIGLA> <nome do app> — <ideia em uma frase>
 Use a skill `processo-apps` e execute as etapas **E0.1** e **E0.2** para: $ARGUMENTS
 
 1. Se faltar sigla (3 letras), nome ou a ideia, pergunte antes de criar qualquer coisa.
-2. Confira se a pasta `<sigla-minúscula>-app/` já existe no diretório atual. Se existir, pare e avise.
+2. Confira se a pasta `apps/<sigla-minúscula>-app/` já existe. Se existir, pare e avise.
 3. Crie a estrutura:
    ```
-   <sigla>-app/docs/
+   apps/<sigla>-app/docs/
    ├── registro.md            (template T07, preenchido com sigla, nome, data de hoje e fase F0)
    ├── portoes.md             (template T05)
    ├── F1-validar/entrevistas/
@@ -25,3 +25,5 @@ Use a skill `processo-apps` e execute as etapas **E0.1** e **E0.2** para: $ARGUM
 6. No registro, marque E0.1 e E0.2 como `Concluída` com a data e o link das saídas.
 7. Termine dizendo: a próxima etapa é **E1.1 · Hipótese e suposições** (`/etapa E1.1`) e o lembrete
    de criar a etiqueta da sigla no quadro e o cartão na coluna "Ideias".
+8. Se estiver num repositório git, faça um commit com a mensagem `<SIGLA>: abre o app (E0.1, E0.2)` e,
+   numa sessão na nuvem, envie a branch para o GitHub para que a equipe veja.

@@ -5,8 +5,8 @@ argument-hint: <código da etapa, ex.: E2.1> [pasta do app]
 
 Use a skill `processo-apps` para executar a etapa: $ARGUMENTS
 
-1. Identifique o app: a pasta informada, ou a pasta atual se tiver `docs/registro.md`.
-   Se houver mais de um app possível ou nenhum, pergunte.
+1. Identifique o app: a sigla ou pasta informada (`apps/<sigla>-app/`), ou a raiz atual se ela tiver
+   `docs/registro.md`. Se houver mais de um app em `apps/` e nenhum foi informado, pergunte qual.
 2. Leia a ficha da etapa no arquivo da fase (`etapas/`) e mostre em 3 linhas: objetivo, saída e critério de pronto.
 3. Leia `docs/registro.md` e verifique:
    - o **gatilho** foi cumprido (etapa anterior ou portão concluído);
@@ -22,5 +22,7 @@ Use a skill `processo-apps` para executar a etapa: $ARGUMENTS
    - atendido → marque `Concluída` (ou `Em revisão`, se depender de aprovação da equipe), com data e link;
    - não atendido → mantenha `Em andamento` e liste o que falta.
 8. Registre uma linha no Diário do registro e diga qual é a próxima etapa e o responsável.
+9. Se estiver num repositório git, faça um commit `<SIGLA>: <código> <nome da etapa>`; numa sessão na nuvem,
+   envie a branch para o GitHub.
 
 Se o código for de um portão (P1–P5), use o fluxo de `/portao`.

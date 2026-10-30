@@ -17,10 +17,13 @@ O que muda de um app para outro é o conteúdo, nunca o caminho.
 
 ## Onde ficam os dados de cada app
 
-Cada app vive em uma pasta `<sigla>-app/` (ex.: `fin-app/`), que nasce no E0.2 e vira o repositório no E3.1:
+Cada app vive em `apps/<sigla>-app/` (ex.: `apps/fin-app/`) dentro do repositório da fábrica, do E0.2 até o P2.
+No E3.1 essa pasta vira um repositório próprio `<sigla>-app` (com os `docs/` levados junto), e a pasta em `apps/`
+passa a conter só um `README.md` com o link do novo repositório. Se o trabalho estiver acontecendo dentro do
+repositório do próprio app (Fase 3 em diante), a raiz do app é a raiz do repositório.
 
 ```
-<sigla>-app/
+apps/<sigla>-app/
 ├── docs/
 │   ├── registro.md          # T07: status de todas as etapas — a fonte para /status
 │   ├── portoes.md           # T05

@@ -1,9 +1,26 @@
 {
   "name": "fabrica-apps",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Processo padronizado para criar, lançar e evoluir apps com IA: 34 etapas, 5 portões, 14 templates, 3 agentes e skills técnicas.",
   "author": {
     "name": "Equipe Fábrica de Apps"
   },
-  "keywords": ["apps", "processo", "produto", "prd", "lgpd", "expo", "supabase"]
+  "keywords": [
+    "apps",
+    "processo",
+    "produto",
+    "prd",
+    "lgpd",
+    "expo",
+    "supabase"
+  ],
+  "repository": "https://github.com/engmello/fabrica-apps",
+  "license": "UNLICENSED",
+  "commands": "./.claude/commands/",
+  "agents": [
+    "./.claude/agents/desenvolvedor.md",
+    "./.claude/agents/produto.md",
+    "./.claude/agents/revisor.md"
+  ],
+  "skills": "./.claude/skills/"
 }

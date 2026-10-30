@@ -7,7 +7,7 @@ MVP completo em staging, testado e aceito. O construtor trabalha com os agentes;
 - **Objetivo:** o app nasce do template com a base pronta em um dia.
 - **Gatilho:** P2 aprovado.
 - **Entradas:** `template-repo/` desta skill; `docs/arquitetura.md`.
-- **Passos:** 1. Copiar `template-repo/` para a pasta do app (sem sobrescrever `docs/`). 2. Criar o app (Expo e/ou Next.js) conforme a arquitetura. 3. Preencher o `CLAUDE.md`. 4. `git init`, repositório `<sigla>-app` na organização (push com confirmação). 5. Projetos dev/staging/produção com segredos separados. 6. Sentry, PostHog e backup do banco.
+- **Passos:** 1. Criar o repositório vazio `<sigla>-app` no GitHub (pessoa da equipe, pela página do GitHub). 2. Copiar `template-repo/` e os `docs/` de `apps/<sigla>-app/` para ele. 3. Criar o app (Expo e/ou Next.js) conforme a arquitetura. 4. Preencher o `CLAUDE.md` e enviar (push com confirmação). 5. Em `apps/<sigla>-app/` do repositório da fábrica, deixar só um `README.md` com o link do novo repositório. 5. Projetos dev/staging/produção com segredos separados. 6. Sentry, PostHog e backup do banco.
 - **Saída:** repositório publicando em staging.
 - **Responsável:** Construtor.
 - **IA:** agente `desenvolvedor`.

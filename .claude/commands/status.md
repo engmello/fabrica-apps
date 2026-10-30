@@ -4,7 +4,7 @@ argument-hint: [pasta do app, ou vazio para todos os apps do diretório]
 ---
 
 Use a skill `processo-apps`. Leia `docs/registro.md` do app informado em "$ARGUMENTS"
-(se vazio: do diretório atual; se houver várias pastas `*-app/`, de todas).
+(se vazio: da raiz atual, se ela for um app; senão, de todas as pastas em `apps/*-app/`).
 
 Responda de forma curta, em português:
 
