@@ -39,7 +39,7 @@ fabrica-apps/
 ├── CLAUDE.md                  # instruções do projeto
 ├── apps/                      # um app por pasta: <sigla>-app/docs/ (criado por /novo-app)
 ├── .claude/
-│   ├── commands/              # /novo-app /etapa /status /portao /validar-ideia /nova-feature /revisar
+│   ├── commands/              # /novo-app /etapa /status /portao /nova-feature /revisar (/validar-ideia é skill)
 │   ├── agents/                # produto, desenvolvedor, revisor
 │   └── skills/
 │       ├── processo-apps/     # o processo: etapas/ (fichas) + templates/ (T01–T14) + template-repo/
