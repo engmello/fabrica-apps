@@ -1,0 +1,48 @@
+# CI padrão da fábrica de apps.
+# Roda em todo PR e em todo push na main: lint, tipos, testes, build e auditoria de dependências.
+# O deploy em staging é feito pelo Vercel (web) e por EAS Update/Build (mobile) a partir da main.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Tipos
+        run: npm run typecheck
+
+      - name: Testes
+        run: npm test -- --run
+
+      - name: Build
+        run: npm run build --if-present
+
+      - name: Dependências vulneráveis (alta ou crítica)
+        run: npm audit --audit-level=high --omit=dev
+
+      - name: Procurar segredos commitados
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

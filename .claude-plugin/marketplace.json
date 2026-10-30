@@ -1,0 +1,14 @@
+{
+  "name": "fabrica-apps-marketplace",
+  "owner": {
+    "name": "Equipe Fábrica de Apps"
+  },
+  "description": "Ferramentas internas da equipe para criar, lançar e evoluir apps.",
+  "plugins": [
+    {
+      "name": "fabrica-apps",
+      "source": "./",
+      "description": "Processo padronizado da equipe para criar, lançar e evoluir apps."
+    }
+  ]
+}
