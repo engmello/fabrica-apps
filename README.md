@@ -32,10 +32,10 @@ fabrica-apps/
 
 ## Como instalar (uma vez por pessoa)
 
-1. Suba esta pasta para um repositório da equipe no GitHub (ex.: `sua-org/fabrica-apps`).
+1. O plugin está publicado em https://github.com/engmello/fabrica-apps.
 2. No Claude Code, rode:
    ```
-   /plugin marketplace add sua-org/fabrica-apps
+   /plugin marketplace add engmello/fabrica-apps
    /plugin install fabrica-apps@fabrica-apps-marketplace
    ```
 3. Reinicie o Claude Code e confira com `/help` se os comandos aparecem.
