@@ -221,12 +221,75 @@ Fontes consultadas em 2026-11-02:
 [Teletime, art. 19 (26/06/2025)](https://teletime.com.br/26/06/2025/art-19-stf-concilia-votos-e-plataformas-terao-responsabilizacao-parcial/) ·
 [IBGE Pomerode](https://www.ibge.gov.br/cidades-e-estados/sc/pomerode.html)
 
-## Alternativas atuais
-| Alternativa | Tipo | Preço | Reclamações recorrentes |
-| --- | --- | --- | --- |
-| | | | |
+## Alternativas atuais (E1.2 · pesquisa de 2026-11-02)
 
-**Diferencial em uma linha:**
+O produto é web e não tem equivalente direto nas lojas. As reclamações vêm de dados de pesquisa sobre veículos locais
+(Atlas da Notícia, UFSC), de reclamações públicas (Reclame Aqui, DECO, Trustpilot) e de produtos parecidos de fora do Brasil.
+**Para SC, a evidência direta ainda é fraca**, e as entrevistas da E1.3 precisam confirmar cada grupo de reclamações.
+
+| # | Alternativa | Tipo (lado que disputa) | Preço | Reclamações recorrentes |
+| --- | --- | --- | --- | --- |
+| 1 | **Grupos de WhatsApp e páginas de Instagram/Facebook da cidade** ("Acontece em…") | Informal, grátis (leitor; parceiro, se o dono da página não aderir) | Grátis para o leitor; "publi" avulsa negociada no direct, sem tabela pública | Boato e falta de responsável identificado (estudo da Coalizão, 2026; grupo sem administrador na PB); depende do algoritmo; anunciante não recebe medição **[a confirmar na E1.3]** |
+| 2 | **Portais e jornais locais independentes** (Adjori-SC reúne ~190 veículos; ex.: Jornal de Pomerode) | Veículo local (parceiro: concorrente **ou** candidato) | Anúncio local em banner, folheto e guia de compras; preço não publicado | 45,7% têm uma pessoa só para produzir; 68% faturam até R$ 25 mil/mês e 21,5% não têm receita (Atlas, dados de 2021); vivem quase só de anúncio local, com conteúdo nacional copiado e clickbait para gerar clique (UFSC, 2025) |
+| 3 | **Portais estaduais com sucursais** (NSC Total, ND+, SCC10) | Grande grupo (leitor; anunciante local e estadual) | Grátis para o leitor; mídia cara para o comércio pequeno **[suposição]** | Concentram a cobertura nas cidades grandes; cidades longe dos polos só aparecem em fato grande (UFSC, 2025). O ND abriu sucursal em Rio do Sul, que é uma das cidades-piloto |
+| 4 | **Redes comerciais de portais:** SCPortais (ADI-SC) e rcnonline (Adjori-SC, 30+ sites) | Rede de veículos com venda unificada (anunciante estadual) | Campanha por rede; preço não publicado | Já vendem "o interior numa compra só", o mesmo argumento do anúncio estadual do Daqui SC. Não achei dados recentes da SCPortais (lançada em 2017) **[a confirmar se está ativa]** |
+| 5 | **Franquia Portal da Cidade** (portais locais, home based, 50+ unidades em 2021) | Franquia de portal local (parceiro: **concorrente direto do modelo**) | Investimento de R$ 5 a 22 mil (anúncio da rede); royalties não informados | Exige dinheiro para entrar; aceita franqueados sem experiência em jornalismo; situação atual e presença em SC **[a confirmar]** |
+| 6 | **Site próprio** (WordPress com tema de notícias, "portal pronto" vendido no Hotmart) | Faça você mesmo (parceiro) | Pagamento único, ou R$ 100–170/mês segundo um vendedor **[alegação de vendedor]** | Entrega o site, mas não traz audiência, venda de anúncio, cobrança nem relatório; manutenção fica com o dono **[suposição]** |
+| 7 | **Impulsionamento no Instagram/Facebook (Meta)** | Autoatendimento (anunciante local) | A partir de poucos reais por dia | Conta de anúncio bloqueada sem explicação, saldo retido, recurso sem resposta (Reclame Aqui e DECO, 2026); impulsionar aumenta o alcance mas não traz cliente se o público estiver mal definido (guias de marketing) |
+| 8 | **Rádio local AM/FM** (Rio do Sul tinha 6 emissoras em 2015) | Veículo local (anunciante local; parceiro: candidato) | Pacote de spots **[preço a levantar]** | Sem medição de quem ouviu **[suposição]**; tem a relação com o comércio que o parceiro precisa |
+| 9 | **Rede social de bairro** (Nextdoor, fora do Brasil) | Plataforma de bairro (leitor) | Grátis; cobra de empresas | Moderação inconsistente, banimento sem explicação, feed tomado por reclamação e briga (Trustpilot e Capterra); recurso pago para empresa comentar (análise de avaliações, ago/2026) |
+| 10 | **Redes hiperlocais de fora** (Patch, TAPinto, Axios Local, Village Media) | Referência de modelo (parceiro e plataforma) | TAPinto: US$ 5 mil na entrada + US$ 500–700/mês + 10% da receita de anúncio | Patch: cresceu rápido demais e em 2012 só 100 de 900 sites davam lucro; virou lucrativo depois de cortar custo e ser vendido. Axios Local ainda não dá lucro (mai/2026). Village Media só entra em cidade com hábito de ler notícia local |
+
+**Grupos de reclamação**
+1. **Quem produz trabalha sozinho e mal ganha** (alternativas 2, 5, 6): falta estrutura para vender e cobrar anúncio, e a receita depende de anúncio avulso.
+2. **Entrar custa dinheiro** (5, 10): franquias cobram entrada e mensalidade antes de o parceiro vender qualquer coisa.
+3. **O comércio paga sem saber o resultado** (1, 7, 8): publi sem medição, rádio sem medição e Meta difícil de operar e sujeita a bloqueio.
+4. **O leitor não confia na fonte** (1, 9): boato, falta de responsável e moderação que parece arbitrária.
+5. **O vazio é menor do que parece** (3, 4, 5): já existem uma franquia de portal local, redes que vendem o interior a anunciantes e sucursais dos grandes grupos.
+
+**Diferencial em uma linha:** é a única opção em que o parceiro local entra **sem investimento nem mensalidade** e recebe pronto o que
+hoje ninguém entrega junto (página com marca, venda, cobrança e relatório de anúncio para o comércio), com a plataforma ganhando só
+quando ele vende.
+
+*Justificativa:* responde aos grupos 1, 2 e 3. Os grupos 4 e 5 continuam abertos: a confiança do leitor depende do parceiro, não da
+plataforma, e o anúncio estadual já tem concorrentes (SCPortais e rcnonline).
+
+**Sinais de alerta**
+- **O Portal da Cidade já faz "portal local com dono local" em escala nacional.** É preciso descobrir se está em SC e por que os
+  franqueados ficam ou saem. Esse é o melhor dado disponível sobre a suposição 1.
+- **Nas cidades-piloto já existe cobertura:** Pomerode tem o Jornal de Pomerode, com portal próprio (a Alesc registrou 100 mil
+  visualizações num dia), e Rio do Sul tem sucursal do ND. Os dois casos podem ser **candidatos a parceiro**, e não só concorrentes.
+- **Nenhum modelo de fora** cobra a taxa em anúncio. O TAPinto cobra mensalidade **e** porcentagem. Não há caso para copiar,
+  e o risco da suposição 1 continua alto.
+
+**O que isso muda para a E1.3 (entrevistas)**
+- Parceiros: perguntar a donos de páginas, jornais e rádios como vendem e cobram anúncio hoje, quanto ganham, se já foram
+  procurados pelo Portal da Cidade ou pela SCPortais, e o que os faria entrar numa rede.
+- Comércio: perguntar onde anunciou da última vez, quanto pagou, como soube se deu resultado e se já teve problema com a Meta.
+- Incluir na lista de entrevistas o Jornal de Pomerode e um veículo de Rio do Sul, sem gravar nomes no documento.
+
+Fontes consultadas em 2026-11-02:
+[UFSC, financiamento nos quase desertos de SC (Cabral e Huf, 2025)](https://ojs.labcom-ifp.ubi.pt/ec/article/download/1637/1131/5690) ·
+[Atlas da Notícia, faturamento e equipes](https://congressoemfoco.com.br/noticia/7852/jornalismo-local-vive-situacao-critica-no-brasil-mostra-atlas-da-noticia) ·
+[Coalizão, desinformação local (Agência Brasil, mai/2026)](https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-05/internet-precaria-e-falta-de-identificacao-sao-causas-de-desinformacao) ·
+[SCPortais](https://acontecendoaqui.com.br/?p=70393) ·
+[Adjori-SC](https://acontecendoaqui.com.br/?p=118035) ·
+[Portal da Cidade, 50+ unidades](https://www.portaldofranchising.com.br/noticias/franquia-de-portais-de-conteudo-portal-da-cidade/) ·
+[Portal da Cidade, home based](https://www.portaldofranchising.com.br/noticias/portal-da-cidade-tem-franqueados-em-formato-home-based/) ·
+[Portal pronto (Hotmart)](https://hotmart.com/pt-br/marketplace/produtos/portal-infoco-smart/I101988798Q) ·
+[Meta no Reclame Aqui](https://www.reclameaqui.com.br/empresa/meta-brasil/lista-reclamacoes/) ·
+[Impulsionar no Instagram](https://herospark.com/blog/impulsionar-instagram/) ·
+[Nextdoor no Trustpilot](https://ca.trustpilot.com/review/nextdoor.com) ·
+[Nextdoor, análise de avaliações](https://unstar.app/pt-BR/blog/nextdoor-business-paywall-cant-comment-suspended-2026) ·
+[TAPinto](https://en.wikipedia.org/wiki/TAPinto) ·
+[TAPinto, custos](https://1851franchise.com/franchise-deep-dive-tapinto-franchise-costs-fees-profit-and-data-2723590) ·
+[Patch (Nieman Lab)](https://niemanlab.org/encyclo/patch/?from=front) ·
+[Patch (Fortune, 2012)](https://fortune.com/2012/02/15/aol-may-never-be-able-to-patch-up-patch) ·
+[Axios Local e 6AM City](https://pressgazette.co.uk/news/new-model-for-local-news-axios-local-6am-city-roll-out-100-us-cities/) ·
+[Village Media](https://www.editorandpublisher.com/stories/beyond-news-deserts-how-village-media-is-proving-local-journalism-can-still-grow,262431) ·
+[Jornal de Pomerode (Alesc)](https://portalelegis.alesc.sc.gov.br/documentos/NYBJX) ·
+[ND em Rio do Sul](https://acontecendoaqui.com.br/comunicacao/grupo-nd-inaugura-mais-uma-sucursal-no-interior-de-santa-catarina/) ·
+[Rádios em Rio do Sul (Intercom, 2015)](https://portalintercom.org.br/anais/sul2015/resumos/R45-0431-2.pdf)
 
 ## Síntese das entrevistas
 - Entrevistas realizadas: __ · Dor confirmada: __%

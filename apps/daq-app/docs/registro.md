@@ -26,7 +26,7 @@ Status: Não iniciada · Em andamento · Em revisão · Concluída · Pulada (ju
 | E0.1 | Registrar a ideia | Concluída | 2026-11-02 | [T01 rascunho](F1-validar/DAQ-T01-ficha-ideia.md) · cartão no quadro pendente |
 | E0.2 | Abrir o projeto | Concluída | 2026-11-02 | [registro](registro.md) · etiqueta DAQ no quadro pendente |
 | E1.1 | Hipótese e suposições | Concluída | 2026-11-02 | [T01 v1: hipóteses, suposições, crítica, cidades](F1-validar/DAQ-T01-ficha-ideia.md) · aprovada pela equipe em 2026-11-02 |
-| E1.2 | Pesquisa de alternativas | Não iniciada | | |
+| E1.2 | Pesquisa de alternativas | Concluída | 2026-11-02 | [T01: 10 alternativas, reclamações agrupadas, diferencial](F1-validar/DAQ-T01-ficha-ideia.md#alternativas-atuais-e12--pesquisa-de-2026-11-02) · evidência de SC ainda fraca; confirmar na E1.3 |
 | E1.3 | Entrevistas ↻ | Não iniciada | | |
 | E1.4 | Teste de interesse | Não iniciada | | |
 | E1.5 | Viabilidade | Não iniciada | | |
@@ -65,3 +65,4 @@ Uma linha por acontecimento relevante (data · etapa · o que aconteceu). Etapas
 - 2026-11-02 · E0.1/E0.2 · App aberto com `/novo-app`; ficha T01 em rascunho com o contexto da ideia.
 - 2026-11-02 · E1.1 · Hipóteses (parceiro, leitor, anunciante local e estadual), 7 suposições com metas, crítica cética e 3 cidades-piloto propostas. Em revisão: falta aprovação da equipe. E1.2 não iniciada por pedido do proponente.
 - 2026-11-02 · E1.1 · Correções do proponente: plataforma é web (app de loja fora do escopo inicial); parceiro não paga mensalidade, a taxa é a receita do 1º anúncio local do mês (depois dos 2 primeiros). T01 revisada.
+- 2026-11-02 · E1.2 · 10 alternativas pesquisadas, reclamações em 5 grupos e diferencial (entrada sem investimento + venda, cobrança e relatório prontos). Alertas: franquia Portal da Cidade é concorrente direto do modelo; Pomerode (Jornal de Pomerode) e Rio do Sul (sucursal ND) já têm cobertura e podem render parceiros. Próxima: E1.3 (Produto).
