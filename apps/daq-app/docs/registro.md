@@ -8,13 +8,13 @@ Local: `docs/registro.md` · Fonte do comando `/status`. Atualize a cada etapa.
 | Nome | Daqui SC (provisório) |
 | Aberto em | 2026-11-02 |
 | Versão do processo | 1.0 |
-| Dono do produto | a definir |
-| Construtor | a definir |
+| Dono do produto | Armatta AI Solutions |
+| Construtor | Osni Ribeiro Mello |
 | Negócio | a definir |
 | Suporte | a definir |
 | Dados/LGPD | a definir |
 | Fase atual | F1 |
-| Plataformas | iOS e Android (principal) · Web (portal e página de vendas) |
+| Plataformas | Web (plataforma principal: portal, páginas locais e painéis) |
 | Links | quadro · canal · staging · produção · lojas |
 
 ## Etapas
@@ -24,7 +24,7 @@ Status: Não iniciada · Em andamento · Em revisão · Concluída · Pulada (ju
 | Código | Etapa | Status | Data | Saída / observação |
 | --- | --- | --- | --- | --- |
 | E0.1 | Registrar a ideia | Concluída | 2026-11-02 | [T01 rascunho](F1-validar/DAQ-T01-ficha-ideia.md) · cartão no quadro pendente |
-| E0.2 | Abrir o projeto | Concluída | 2026-11-02 | [registro](registro.md) · etiqueta DAQ no quadro pendente · aguardando nome do dono do produto e do construtor |
+| E0.2 | Abrir o projeto | Concluída | 2026-11-02 | [registro](registro.md) · etiqueta DAQ no quadro pendente |
 | E1.1 | Hipótese e suposições | Em revisão | 2026-11-02 | [T01 v1: hipóteses, suposições, crítica, cidades](F1-validar/DAQ-T01-ficha-ideia.md) · aguarda aprovação da equipe |
 | E1.2 | Pesquisa de alternativas | Não iniciada | | |
 | E1.3 | Entrevistas ↻ | Não iniciada | | |
@@ -64,3 +64,4 @@ Uma linha por acontecimento relevante (data · etapa · o que aconteceu). Etapas
 
 - 2026-11-02 · E0.1/E0.2 · App aberto com `/novo-app`; ficha T01 em rascunho com o contexto da ideia.
 - 2026-11-02 · E1.1 · Hipóteses (parceiro, leitor, anunciante local e estadual), 7 suposições com metas, crítica cética e 3 cidades-piloto propostas. Em revisão: falta aprovação da equipe. E1.2 não iniciada por pedido do proponente.
+- 2026-11-02 · E1.1 · Correções do proponente: plataforma é web (app de loja fora do escopo inicial); parceiro não paga mensalidade, a taxa é a receita do 1º anúncio local do mês (depois dos 2 primeiros). T01 revisada.

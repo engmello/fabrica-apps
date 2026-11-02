@@ -9,7 +9,7 @@ Etapas: E0.1, E1.1, E1.2, E1.4, E1.5 · Local: `docs/F1-validar/DAQ-T01-ficha-id
 | Sigla | DAQ |
 | Data | 2026-11-02 |
 | Proposto por | Produto (a confirmar) |
-| Plataformas previstas | iOS / Android primeiro (produto principal) · Web como portal de notícias e página de vendas para parceiros e anunciantes |
+| Plataformas previstas | **Web** (plataforma principal): portal de notícias, páginas locais, painéis do parceiro e da administração, e página de vendas para parceiros e anunciantes. App de loja fora do escopo inicial. |
 
 ## Problema (rascunho E0.1)
 Moradores de municípios e bairros de Santa Catarina não têm uma fonte local, confiável e contínua de notícias
@@ -21,18 +21,22 @@ O comércio local não tem um canal barato e medido para alcançar só quem mora
 ## Público (rascunho E0.1)
 Mercado de três lados, mais a administração:
 - **Leitor:** morador do município ou bairro; acesso gratuito; envia notícias, fotos, sugestões de pauta e comenta. Tudo passa por moderação.
-- **Parceiro local:** responsável por um município ou bairro, de preferência jornalista (não obrigatório). Paga mensalidade, publica, modera, cuida das redes da página, vende anúncio local e responde pelo conteúdo da sua página.
+- **Parceiro local:** responsável por um município ou bairro, de preferência jornalista (não obrigatório). Paga a taxa com a receita do 1º anúncio local do mês (depois dos 2 primeiros), publica, modera, cuida das redes da página, vende anúncio local e responde pelo conteúdo da sua página.
 - **Anunciante local:** comércio e serviços do município ou bairro.
 - **Anunciante estadual:** empresas, marcas e órgãos com atuação em todo o estado.
-- **Administração da plataforma:** contas de municípios e bairros, parceiros, mensalidades, repasses, moderação de segundo nível (denúncias e remoções) e anúncios estaduais.
+- **Administração da plataforma:** contas de municípios e bairros, parceiros, taxas (anúncios que valem como taxa), repasses, moderação de segundo nível (denúncias e remoções) e anúncios estaduais.
 
 Região: Santa Catarina, por município; nas cidades maiores (ex.: Florianópolis, Joinville, Blumenau), por bairro.
 
 ## Modelo de receita (rascunho)
 - Anúncio local: 100% para o parceiro.
 - Anúncio estadual: 10% para o parceiro da página onde aparece, 90% para a plataforma. **[suposição: repasse proporcional às exibições na página dele]**
-- Plataforma: mensalidades dos parceiros + 90% dos anúncios estaduais.
-- Valor da mensalidade: **não definido**; testar na validação.
+- **Taxa do parceiro paga em anúncio, não em dinheiro:** a receita do 1º anúncio local vendido no mês fica com a
+  plataforma; depois a regra passa a ser os 2 primeiros. Os demais anúncios locais são 100% do parceiro.
+  **[a definir: quando passa de 1 para 2 anúncios; se a regra conta anúncios ou valor mínimo; e o que acontece
+  quando o parceiro não vende nenhum no mês (paga uma mensalidade? carência? perde o território?)]**
+- Plataforma: anúncios locais que valem como taxa + 90% dos anúncios estaduais.
+- Preço do anúncio local (e, portanto, o valor da taxa): **não definido**; testar na validação.
 
 ## Funcionalidades previstas (rascunho, não é escopo do MVP)
 - Página padronizada por município/bairro: texto, fotos, vídeos e integração forte com redes sociais (compartilhar, publicar, trazer conteúdo).
@@ -40,7 +44,7 @@ Região: Santa Catarina, por município; nas cidades maiores (ex.: Florianópoli
 - Participação do leitor com fila de moderação do parceiro e canal de denúncia para a plataforma.
 - Espaços de anúncio locais e estaduais, relatório para o anunciante e cálculo automático de repasses.
 - Painel do parceiro: conteúdo, moderação, anúncios vendidos, receita.
-- Painel administrativo: municípios/bairros, parceiros, mensalidades, repasses, anúncios estaduais, moderação.
+- Painel administrativo: municípios/bairros, parceiros, taxas, repasses, anúncios estaduais, moderação.
 
 ## Hipótese em uma frase (E1.1 · v1, em revisão)
 
@@ -49,8 +53,9 @@ São três lados. Todas as frases são **[suposição]** até as entrevistas (E1
 **Parceiro (quem paga a plataforma; hipótese central):**
 > Para **jornalistas, comunicadores e donos de páginas de notícia de uma cidade ou bairro de SC** que sofrem com
 > **não conseguir viver do conteúdo local, por falta de estrutura, marca e um jeito organizado de vender anúncio**,
-> **um espaço exclusivo do seu território, com publicação, moderação, venda de anúncios e relatórios prontos**, resolve
-> porque **profissionaliza o trabalho e fica com 100% do anúncio local que vender**, ao contrário de **manter sozinho um
+> **um espaço exclusivo do seu território na web, com publicação, moderação, venda de anúncios e relatórios prontos, sem
+> mensalidade em dinheiro (paga com o 1º anúncio do mês)**, resolve porque **profissionaliza o trabalho sem custo fixo e
+> fica com 100% dos demais anúncios locais**, ao contrário de **manter sozinho um
 > perfil de Instagram, grupo de WhatsApp ou site próprio e vender "publi" avulsa sem medição**.
 
 **Leitor:**
@@ -79,10 +84,10 @@ As três primeiras são as que a E1.1 exige; as demais seguem a ordem de risco.
 
 | # | Suposição | Como testar | Meta que confirma | Resultado |
 | --- | --- | --- | --- | --- |
-| 1 | **(a) Há pessoas dispostas a pagar mensalidade para ser parceiro, e o valor que aceitam paga a plataforma.** | Entrevistar 10 candidatos (jornalistas locais, donos de páginas e perfis de cidade, radialistas) nas cidades-piloto. Depois, oferta real em 3 faixas (R$ 149 · R$ 299 · R$ 499/mês), cada candidato vendo uma só, com carta de intenção e sinal reembolsável (ex.: 1º mês). | ≥ 3 de 10 candidatos pagam o sinal em alguma faixa; ao menos 1 na faixa de R$ 299 ou mais. | |
-| 2 | **(b) O comércio local compra anúncio de um parceiro na página da cidade.** | Venda antecipada, numa cidade-piloto, de um pacote de lançamento (ex.: R$ 150/mês por 3 meses) para 30 comércios abordados pelo parceiro candidato com a equipe. | ≥ 6 de 30 (20%) assinam com pagamento ou pedido firme. | |
-| 3 | **(c) Uma cidade pequena gera audiência suficiente para o anúncio ter valor.** E o leitor instala e volta a um **app**, em vez de seguir no WhatsApp ou no Instagram. | Página-piloto de 6 semanas (canal de WhatsApp + Instagram + web simples) com o parceiro publicando todo dia; depois, convite para instalar o app (lista de espera ou beta). | Alcance único mensal ≥ 20% da população adulta; ≥ 30% de leitores voltando toda semana; ≥ 5% da audiência entra na lista do app. | |
-| 4 | **Um parceiro consegue, sozinho, produzir, moderar, cuidar das redes e vender anúncio, e ganhar o suficiente para ficar.** | Acompanhar o tempo e a receita dos parceiros-piloto por 6 semanas (diário de horas). | Publica ≥ 1 notícia/dia útil em ≤ 4 h/dia; receita de anúncio ≥ 2× a mensalidade ao fim do piloto. | |
+| 1 | **(a) Há pessoas dispostas a ser parceiro e a entregar a receita do 1º anúncio do mês (depois dos 2 primeiros) como taxa.** | Entrevistar 10 candidatos (jornalistas locais, donos de páginas e perfis de cidade, radialistas) nas cidades-piloto. Depois, oferta real com a regra explicada por escrito, já com a passagem de 1 para 2 anúncios, e assinatura de carta de intenção. | ≥ 3 de 10 assinam com a regra de 2 anúncios explicada; ≥ 2 vendem o 1º anúncio em até 30 dias do início. | |
+| 2 | **(b) O comércio local compra anúncio de um parceiro na página da cidade.** É disso que vive o parceiro **e** a plataforma. | Venda antecipada, numa cidade-piloto, de um pacote de lançamento (ex.: R$ 150/mês por 3 meses **[suposição]**) para 30 comércios abordados pelo parceiro candidato com a equipe. | ≥ 6 de 30 (20%) assinam com pagamento ou pedido firme. | |
+| 3 | **(c) Uma cidade pequena gera audiência suficiente na web para o anúncio ter valor**, e o leitor volta ao site em vez de ler só no WhatsApp ou no Instagram. | Página-piloto de 6 semanas na web, divulgada por canal de WhatsApp e Instagram, com o parceiro publicando todo dia. | Alcance único mensal ≥ 20% da população adulta; ≥ 30% dos leitores voltam toda semana; ≥ 50% das visitas chegam pelo link compartilhado e seguem para outra notícia. | |
+| 4 | **Um parceiro consegue, sozinho, produzir, moderar, cuidar das redes e vender anúncio, e ganhar o suficiente para ficar.** | Acompanhar o tempo e a receita dos parceiros-piloto por 6 semanas (diário de horas). | Publica ≥ 1 notícia/dia útil em ≤ 4 h/dia; vende ≥ 4 anúncios/mês ao fim do piloto (2 de taxa + ≥ 2 dele). | |
 | 5 | **(e) Anunciantes estaduais pagam por alcance distribuído em muitas cidades pequenas.** | 8 entrevistas com agências e anunciantes de SC (rede de varejo, cooperativa, banco regional, órgão público); pedir proposta para uma campanha-teste. | ≥ 2 de 8 pedem proposta com valor; ≥ 1 aceita um piloto pago. | |
 | 6 | **(d) Os leitores participam enviando conteúdo, e a moderação dá conta do volume.** | No piloto: formulário de envio (WhatsApp ou web) e registro do volume e do tempo de moderação. | ≥ 3 envios aproveitáveis por semana por página; moderação ≤ 30 min/dia; nenhum envio aguarda mais de 24 h. | |
 | 7 | **O risco jurídico do conteúdo (parceiro e leitor) é administrável a um custo aceitável.** | Parecer de advogado de mídia/digital sobre o modelo (ver Crítica, item 2) antes do P1. | Parecer sem impedimento; custo de conformidade (termos, contrato, seguro, processo de remoção) cabe no cenário provável da E1.5. | |
@@ -100,8 +105,9 @@ Objetivo: tentar derrubar a ideia antes de gastar com ela. Itens com **[a confir
 - **Jornais e portais locais** (filiados à Adjori-SC e independentes) e **rádios AM/FM locais**: já têm a relação com o
   comércio, que é exatamente o que o parceiro precisa construir. Muitas rádios mantêm site e Instagram.
 - **Grupos de WhatsApp e páginas de Instagram ("Acontece em…", "Fulano News")**: é o concorrente real do leitor. São
-  grátis, imediatos e já instalados. O app só vence se oferecer algo que eles não oferecem (confiança, organização, arquivo),
-  e mesmo assim o leitor pode preferir receber no WhatsApp.
+  grátis, imediatos e já instalados. Ser web ajuda, porque o link abre direto do WhatsApp sem instalar nada. Mas o site só
+  vence se oferecer algo que eles não oferecem (confiança, organização, arquivo), e o leitor pode ler o resumo no grupo e não
+  clicar. A audiência depende de o parceiro distribuir bem os links.
 - **Lado bom:** o Atlas da Notícia (2024, citado em estudo da UFSC de 2025) aponta que 124 dos 295 municípios de SC não
   têm veículo local de notícia e cerca de 2/3 têm nenhum ou poucos. Há "desertos de notícia", mas costumam ser os
   municípios menores, com menos comércio para pagar a conta. **[a confirmar na E1.2]**
@@ -130,18 +136,24 @@ Isto exige parecer de advogado antes do P1. Os pontos abaixo **não são orienta
 - **Contrato com o parceiro:** precisa de cláusula de responsabilidade solidária ou regressiva, padrão editorial mínimo,
   dever de checagem e remoção, e seguro de responsabilidade civil **[a avaliar]**.
 
-### 3. Parceiro pagante: parece franquia, e a rotatividade pode matar o modelo
-- **Risco de virar franquia sem querer.** Usar a marca + sistema + método + taxa periódica + território exclusivo é muito
-  parecido com franquia. Pela **Lei 13.966/2019**, isso exige **Circular de Oferta de Franquia (COF)** entregue 10 dias antes
-  da assinatura, sob pena de anulação e devolução de valores. **[a confirmar com advogado]** Alternativa: estruturar como
-  licença de software (SaaS) + contrato de parceria editorial, sem promessa de ganho.
-- **Promessa implícita de renda.** Se o parceiro paga para entrar e não fatura, a percepção vira "paguei para trabalhar",
-  um risco de reputação no boca a boca das cidades pequenas.
-- **Conta do parceiro [suposição]:** numa cidade de 30 mil habitantes, 10 anunciantes a R$ 150 dão R$ 1.500/mês. Menos a
-  mensalidade de R$ 299, sobra ~R$ 1.200 para um trabalho que pede horas todos os dias. Isso só fecha como **renda extra**
-  de quem já faz isso (dono de página, radialista) ou em cidades maiores. Espere rotatividade alta nos primeiros 3–6 meses.
+### 3. Parceiro que paga com anúncio: ainda lembra franquia, e a rotatividade pode matar o modelo
+- **O que melhorou com a regra "taxa = 1º anúncio":** não há custo fixo para entrar, e a plataforma só ganha quando o parceiro
+  vende. Os incentivos ficam alinhados e some o "paguei para trabalhar".
+- **Risco de virar franquia sem querer.** Marca + sistema + método + território exclusivo + remuneração periódica (mesmo que
+  em anúncio) ainda se parece com franquia. Pela **Lei 13.966/2019**, isso exige **Circular de Oferta de Franquia (COF)**
+  entregue 10 dias antes da assinatura. **[a confirmar com advogado]** Alternativa: licença de uso da plataforma +
+  contrato de parceria editorial e de representação comercial, sem promessa de ganho.
+- **A passagem de 1 para 2 anúncios** dobra a taxa. Se não estiver escrita desde o início (quando e por quê), vai ser lida
+  como "mudaram a regra", que é o gatilho clássico de saída. Fixe a data ou o gatilho no contrato.
+- **Mês sem venda:** se o parceiro não vende nenhum anúncio, a plataforma não recebe nada e continua com o custo da página.
+  É preciso uma regra (carência, mensalidade mínima ou perda do território após N meses).
+- **Conta do parceiro [suposição]:** numa cidade de 30 mil habitantes, 10 anunciantes a R$ 150 dão R$ 1.500/mês. Menos 2
+  anúncios de taxa, sobram R$ 1.200 para um trabalho que pede horas todos os dias. Só fecha como **renda extra** de quem já
+  faz isso (dono de página, radialista) ou em cidades maiores. Espere rotatividade alta nos primeiros 3–6 meses.
+- **Quem fica com qual anúncio:** como o 1º anúncio é da plataforma, o parceiro tende a lançar como "1º" o anúncio mais
+  barato. A regra precisa de um valor mínimo e a cobrança precisa passar pela plataforma.
 - **Como reduzir a rotatividade:**
-  1. Carência ou mensalidade baixa nos primeiros 3 meses, subindo conforme o parceiro vende (ou mensalidade proporcional à receita).
+  1. Começar com 1 anúncio de taxa e só passar para 2 depois de uma data ou de uma meta de receita do parceiro, escrita no contrato.
   2. Recrutar quem **já tem audiência e relação com o comércio**, não quem começa do zero.
   3. Kit de vendas pronto (tabela de preços, mídia kit automático, contrato, cobrança e nota pela plataforma).
   4. Conteúdo estadual de base (serviço, tempo, estradas) para a página não ficar vazia quando o parceiro falha.
@@ -156,31 +168,31 @@ Isto exige parecer de advogado antes do P1. Os pontos abaixo **não são orienta
 - **Atrair parceiros que já têm audiência** (páginas de cidade com seguidores, blogs, rádios) e oferecer a eles ferramenta e
   receita, não só "um espaço".
 - **Anunciante estadual por último:** só faz sentido com dezenas de cidades ativas.
-- **Crítica ao "app primeiro" (não é mudança de plano; é para a equipe decidir):** a decisão está tomada, mas é a mais cara de
-  desfazer. O leitor de cidade pequena já está no WhatsApp e no Instagram. Dá para validar as suposições 1 a 4 em 6 semanas
-  **sem app**: parceiro publicando em canal de WhatsApp + Instagram + página web simples, com venda manual de anúncio. O app entra
-  quando houver prova de que parceiros pagam e comércio compra.
+- **Validar antes de construir:** como a plataforma é web, o piloto pode começar com um site simples (páginas da cidade +
+  formulário de envio) e venda manual de anúncio. As suposições 1 a 4 se testam em 6 semanas, antes dos painéis e do cálculo
+  automático de repasses.
 
-### 5. Economia da plataforma (0% do anúncio local)
-- A plataforma só ganha com **mensalidade** (cresce com o número de parceiros, não com o sucesso deles) e com **anúncio
-  estadual** (depende de escala). No começo, o incentivo fica desalinhado: o parceiro só ganha se vender, e a plataforma ganha
-  de qualquer jeito, até ele sair.
-- **Teto das mensalidades [suposição]:** SC tem 295 municípios (Atlas da Notícia/IBGE). Somando ~60 bairros nas cidades
-  grandes, são ~355 páginas. Com 50% ocupadas a R$ 299, dá ≈ R$ 53 mil/mês no **teto**. Um cenário realista em 12–18 meses
-  (20–40 parceiros) dá R$ 6–12 mil/mês.
+### 5. Economia da plataforma (taxa paga com anúncio)
+- A plataforma ganha com o **1º anúncio de cada parceiro ativo** (depois com os 2 primeiros) e com **90% do anúncio estadual**.
+  O lado bom é que ela só ganha se o parceiro vende. O lado ruim é que a receita por página fica **presa ao preço do anúncio
+  local**, que numa cidade pequena é baixo, e é zero nos meses sem venda.
+- **Teto [suposição]:** SC tem 295 municípios (Atlas da Notícia/IBGE). Somando ~60 bairros nas cidades grandes, são ~355
+  páginas. Com 50% ativas e 2 anúncios de taxa a R$ 150, dá ≈ R$ 53 mil/mês no **teto**. Um cenário realista em 12–18 meses
+  (20–40 parceiros, metade ainda com 1 anúncio) dá R$ 4,5–9 mil/mês.
 - **Anúncio estadual [suposição]:** com 30 cidades ativas e ~200 mil leitores/mês, ~4 milhões de exibições/mês a CPM de R$ 15
   e 25% vendido dá ≈ R$ 15 mil/mês brutos, R$ 13,5 mil para a plataforma. A SCPortais disputa o mesmo orçamento.
 - **Custo [suposição]:** uma equipe enxuta (produto/construção, comercial estadual, suporte e moderação de 2º nível) + infra +
-  jurídico custa facilmente R$ 30–40 mil/mês. **Seriam precisos 100+ parceiros pagantes** ou anúncio estadual forte para empatar.
-  A E1.5 deve fazer essa conta com números reais.
-- **Ideias para testar:** (1) pequena taxa (10–20%) sobre o anúncio local **vendido e cobrado pela plataforma**, em troca de
-  cobrança, nota fiscal e relatório automáticos; (2) mensalidade escalonada pelo tamanho da cidade; (3) serviços pagos ao
-  parceiro (gestão de redes, vídeo, cobertura de eventos).
+  jurídico custa facilmente R$ 30–40 mil/mês. **Seriam precisos 100+ parceiros ativos com 2 anúncios** ou anúncio estadual
+  forte para empatar. A E1.5 deve fazer essa conta com números reais.
+- **Ideias para testar:** (1) valor mínimo para o anúncio que vale como taxa, maior nas cidades maiores; (2) cobrança de todos
+  os anúncios pela plataforma (dá controle, nota fiscal e relatório, e evita disputa sobre qual foi o "1º"); (3) serviços pagos
+  ao parceiro (gestão de redes, vídeo, cobertura de eventos).
 
 ### Veredito do cético
 O ponto mais fraco não é a tecnologia nem a notícia. É a **conta do parceiro** (ele ganha o suficiente para pagar e ficar?) e a
-**conta da plataforma** (com 0% do local, ela precisa de muitos parceiros). A hipótese central deve ser a do parceiro; a do leitor
-vem depois. Se as suposições 1 e 2 falharem nas cidades-piloto, reformular o modelo de receita antes de pensar no app.
+**conta da plataforma** (com a taxa presa a 1–2 anúncios locais baratos, ela precisa de muitos parceiros ativos). A hipótese
+central deve ser a do parceiro; a do leitor vem depois. Se as suposições 1 e 2 falharem nas cidades-piloto, reformular o
+modelo de receita antes de construir os painéis.
 
 ## Cidades sugeridas para o teste (E1.1 · proposta)
 
@@ -239,7 +251,7 @@ Fontes consultadas em 2026-11-02:
 | Usuários em 12 meses | | | |
 | Conversão para pago (%) | | | |
 | Preço (R$/mês) | | | |
-| Taxa das lojas (%) | | | |
+| Taxa das lojas (%) — não se aplica (web); usar taxa do meio de pagamento | | | |
 | Receita mensal no mês 12 (R$) | | | |
 
 ## Resultado
