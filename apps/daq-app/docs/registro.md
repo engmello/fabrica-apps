@@ -25,7 +25,7 @@ Status: Não iniciada · Em andamento · Em revisão · Concluída · Pulada (ju
 | --- | --- | --- | --- | --- |
 | E0.1 | Registrar a ideia | Concluída | 2026-11-02 | [T01 rascunho](F1-validar/DAQ-T01-ficha-ideia.md) · cartão no quadro pendente |
 | E0.2 | Abrir o projeto | Concluída | 2026-11-02 | [registro](registro.md) · etiqueta DAQ no quadro pendente |
-| E1.1 | Hipótese e suposições | Em revisão | 2026-11-02 | [T01 v1: hipóteses, suposições, crítica, cidades](F1-validar/DAQ-T01-ficha-ideia.md) · aguarda aprovação da equipe |
+| E1.1 | Hipótese e suposições | Concluída | 2026-11-02 | [T01 v1: hipóteses, suposições, crítica, cidades](F1-validar/DAQ-T01-ficha-ideia.md) · aprovada pela equipe em 2026-11-02 |
 | E1.2 | Pesquisa de alternativas | Não iniciada | | |
 | E1.3 | Entrevistas ↻ | Não iniciada | | |
 | E1.4 | Teste de interesse | Não iniciada | | |

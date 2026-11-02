@@ -46,7 +46,7 @@ Região: Santa Catarina, por município; nas cidades maiores (ex.: Florianópoli
 - Painel do parceiro: conteúdo, moderação, anúncios vendidos, receita.
 - Painel administrativo: municípios/bairros, parceiros, taxas, repasses, anúncios estaduais, moderação.
 
-## Hipótese em uma frase (E1.1 · v1, em revisão)
+## Hipótese em uma frase (E1.1 · v1, aprovada pela equipe em 2026-11-02)
 
 São três lados. Todas as frases são **[suposição]** até as entrevistas (E1.3) e o teste de interesse (E1.4).
 
@@ -79,7 +79,7 @@ São três lados. Todas as frases são **[suposição]** até as entrevistas (E1
 
 ## Suposições mais arriscadas (ordem de risco)
 
-As metas são uma proposta e devem ser aprovadas pela equipe **antes** de qualquer teste. Os valores em R$ são **[suposição]**.
+As metas foram aprovadas pela equipe em 2026-11-02, antes de qualquer teste. Os valores em R$ são **[suposição]**.
 As três primeiras são as que a E1.1 exige; as demais seguem a ordem de risco.
 
 | # | Suposição | Como testar | Meta que confirma | Resultado |
