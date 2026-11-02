@@ -13,7 +13,7 @@ Local: `docs/registro.md` · Fonte do comando `/status`. Atualize a cada etapa.
 | Negócio | a definir |
 | Suporte | a definir |
 | Dados/LGPD | a definir |
-| Fase atual | F0 |
+| Fase atual | F1 |
 | Plataformas | iOS e Android (principal) · Web (portal e página de vendas) |
 | Links | quadro · canal · staging · produção · lojas |
 
@@ -24,8 +24,8 @@ Status: Não iniciada · Em andamento · Em revisão · Concluída · Pulada (ju
 | Código | Etapa | Status | Data | Saída / observação |
 | --- | --- | --- | --- | --- |
 | E0.1 | Registrar a ideia | Concluída | 2026-11-02 | [T01 rascunho](F1-validar/DAQ-T01-ficha-ideia.md) · cartão no quadro pendente |
-| E0.2 | Abrir o projeto | Concluída | 2026-11-02 | [registro](registro.md) · etiqueta DAQ no quadro pendente · dono do produto a definir |
-| E1.1 | Hipótese e suposições | Não iniciada | | |
+| E0.2 | Abrir o projeto | Concluída | 2026-11-02 | [registro](registro.md) · etiqueta DAQ no quadro pendente · aguardando nome do dono do produto e do construtor |
+| E1.1 | Hipótese e suposições | Em revisão | 2026-11-02 | [T01 v1: hipóteses, suposições, crítica, cidades](F1-validar/DAQ-T01-ficha-ideia.md) · aguarda aprovação da equipe |
 | E1.2 | Pesquisa de alternativas | Não iniciada | | |
 | E1.3 | Entrevistas ↻ | Não iniciada | | |
 | E1.4 | Teste de interesse | Não iniciada | | |
@@ -63,3 +63,4 @@ Status: Não iniciada · Em andamento · Em revisão · Concluída · Pulada (ju
 Uma linha por acontecimento relevante (data · etapa · o que aconteceu). Etapas ↻ registram cada execução aqui.
 
 - 2026-11-02 · E0.1/E0.2 · App aberto com `/novo-app`; ficha T01 em rascunho com o contexto da ideia.
+- 2026-11-02 · E1.1 · Hipóteses (parceiro, leitor, anunciante local e estadual), 7 suposições com metas, crítica cética e 3 cidades-piloto propostas. Em revisão: falta aprovação da equipe. E1.2 não iniciada por pedido do proponente.
