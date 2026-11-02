@@ -35,6 +35,8 @@ Região: Santa Catarina, por município; nas cidades maiores (ex.: Florianópoli
   plataforma; depois a regra passa a ser os 2 primeiros. Os demais anúncios locais são 100% do parceiro.
   **[a definir: quando passa de 1 para 2 anúncios; se a regra conta anúncios ou valor mínimo; e o que acontece
   quando o parceiro não vende nenhum no mês (paga uma mensalidade? carência? perde o território?)]**
+- **Fase de entrada, com taxa paga em conteúdo (proposta de 2026-11-02):** enquanto a página não se pagar, o parceiro não entrega
+  anúncio como taxa. Ele paga com conteúdo. Regras em "Estratégias de diferenciação", item C1.
 - Plataforma: anúncios locais que valem como taxa + 90% dos anúncios estaduais.
 - Preço do anúncio local (e, portanto, o valor da taxa): **não definido**; testar na validação.
 
@@ -267,6 +269,61 @@ plataforma, e o anúncio estadual já tem concorrentes (SCPortais e rcnonline).
   procurados pelo Portal da Cidade ou pela SCPortais, e o que os faria entrar numa rede.
 - Comércio: perguntar onde anunciou da última vez, quanto pagou, como soube se deu resultado e se já teve problema com a Meta.
 - Incluir na lista de entrevistas o Jornal de Pomerode e um veículo de Rio do Sul, sem gravar nomes no documento.
+
+## Estratégias de diferenciação para atrair clientes (ideias · 2026-11-02)
+
+Pedido do proponente, a partir da E1.2. Cada ideia responde a um grupo de reclamação (G1 a G5, acima).
+Todas são **[suposição]**: entram como perguntas na E1.3 e como oferta no teste de interesse da E1.4.
+
+### A. Anunciante local (comércio)
+| # | Ideia | Por que diferencia | Grupo |
+| --- | --- | --- | --- |
+| A1 | **Botão de WhatsApp e de ligação em todo anúncio**, contando cada contato gerado | O comércio vê clientes, não "exibições". A rádio e a publi avulsa não medem isso | G3 |
+| A2 | **Relatório mensal simples no WhatsApp** do anunciante (exibições, cliques, contatos e comparação com o mês anterior) | Prova o resultado sem exigir que ele entre num painel | G3 |
+| A3 | **Primeiro mês de teste** com meta de contatos combinada antes; se não bater, o 2º mês sai pela metade | Tira o risco da primeira compra, que é a maior barreira do comércio pequeno | G3 |
+| A4 | **Guia comercial da cidade:** página fixa de cada negócio (horário, endereço, WhatsApp, fotos) como plano de entrada barato | É a porta de entrada para o anúncio; o leitor usa como lista telefônica | G3 |
+| A5 | **Matéria "Conheça o comércio"** feita pelo parceiro (texto, fotos e vídeo curto), publicada no portal e nas redes | Conteúdo patrocinado já é a forma que funciona nos portais locais de SC (UFSC, 2025) | G1, G3 |
+| A6 | **Ofertas da semana e folheto digital** do mercado, da farmácia e da loja | Formato que os portais do interior já vendem, agora com medição | G3 |
+| A7 | **Pacotes de datas locais** (festa da cidade, Natal, volta às aulas, eventos de bairro) | Venda pronta e sazonal, mais fácil de o parceiro oferecer | G1 |
+| A8 | **Contrato, cobrança por Pix recorrente e nota fiscal pela plataforma**, com atendimento humano | Contraste com a Meta: sem bloqueio sem explicação e sem saldo retido | G3 |
+| A9 | **Selo "Apoia o jornalismo da cidade"** para o anunciante usar na loja e nas redes | Anunciar vira imagem local, não só mídia | G4 |
+
+### B. Leitor (gera a audiência que o anúncio vende)
+| # | Ideia | Por que diferencia | Grupo |
+| --- | --- | --- | --- |
+| B1 | **Utilidade diária:** alertas da Defesa Civil e de cheias, estradas, falta de água e luz, farmácia de plantão, vagas de emprego, falecimentos | É o que o grupo de WhatsApp espalha sem organizar; faz o leitor voltar todo dia | G4 |
+| B2 | **Canal oficial no WhatsApp** com resumo do dia e link para a notícia | Usa o canal onde o leitor já está e traz o clique para o portal | G4 |
+| B3 | **Responsável identificado e "corrigimos" público** em cada notícia | Resposta direta ao boato e à página sem dono | G4 |
+| B4 | **"Isso é verdade?":** o leitor manda o que recebeu no grupo e o parceiro checa | Transforma o boato em pauta e em audiência | G4 |
+| B5 | **Agenda da cidade e classificados grátis do leitor** | Traz quem não lê notícia; o classificado também é inventário de anúncio | G3, G4 |
+
+### C. Parceiro
+| # | Ideia | Por que diferencia | Grupo |
+| --- | --- | --- | --- |
+| C1 | **Taxa paga em conteúdo até a página se pagar** (detalhe abaixo) | Nenhuma alternativa permite começar sem pagar nem entregar receita; a franquia cobra entrada | G1, G2 |
+| C2 | **Trazer a página que ele já tem:** o dono de página, rádio ou jornal entra na rede sem perder sua marca ("Fulano News, na rede Daqui SC") | Recruta quem já tem audiência, que é o que a crítica e a Village Media recomendam | G1, G5 |
+| C3 | **Kit de vendas pronto:** tabela de preço sugerida, mídia kit automático com os números da página e roteiro de abordagem | Ataca o "trabalha sozinho e não sabe vender" | G1 |
+| C4 | **Conteúdo estadual de base** (tempo, estradas, serviço) para a página nunca ficar vazia | Reduz a carga de quem tem uma pessoa só | G1 |
+
+#### C1 · Taxa paga em conteúdo até a página se pagar
+- **Regra proposta:** na fase de entrada, o parceiro não entrega o 1º anúncio do mês como taxa. Em troca, ele cede à plataforma
+  um volume combinado de conteúdo, por exemplo **N matérias de utilidade por mês com licença de uso em toda a rede**
+  **[N a definir]**. A plataforma usa esse conteúdo no conteúdo estadual de base, nas páginas vizinhas e como inventário para o
+  anúncio estadual.
+- **Quando termina ("a página se pagou"):** escolher um gatilho e escrevê-lo no contrato desde o início:
+  1. receita própria do parceiro ≥ **R$ X/mês** por 2 meses seguidos **[X a definir]**; ou
+  2. a página cobre o próprio custo para a plataforma (infraestrutura + suporte) **[custo a calcular na E1.5]**; ou
+  3. um prazo máximo (ex.: 6 meses), o que vier primeiro.
+  Depois do gatilho entra a regra normal: 1º anúncio do mês e, mais tarde, os 2 primeiros.
+- **O que resolve:** o problema do "mês sem venda" (Crítica, item 3) e a barreira de entrada, que é a reclamação contra a franquia.
+- **Riscos [a confirmar]:**
+  - A plataforma fica mais tempo sem dinheiro, o que piora a conta da E1.5. É preciso um prazo máximo.
+  - O conteúdo só vale como pagamento se for reaproveitável (utilidade, serviço), não notícia que vence no dia.
+  - Pode ser lido como trabalho sem remuneração ou reforçar a cara de franquia. O contrato deve tratar o conteúdo como
+    **licença de uso**, com padrão mínimo de qualidade **[a confirmar com advogado, junto com a suposição 7]**.
+  - O parceiro tem incentivo a adiar o gatilho (declarar menos receita). Isso reforça que a cobrança dos anúncios passe pela plataforma.
+- **Para testar:** na E1.3, perguntar aos candidatos se preferem começar pagando em conteúdo ou em anúncio. Na E1.4, oferecer as
+  duas opções na carta de intenção e contar quantos escolhem cada uma.
 
 Fontes consultadas em 2026-11-02:
 [UFSC, financiamento nos quase desertos de SC (Cabral e Huf, 2025)](https://ojs.labcom-ifp.ubi.pt/ec/article/download/1637/1131/5690) ·
