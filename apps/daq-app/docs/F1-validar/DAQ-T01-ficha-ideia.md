@@ -310,6 +310,8 @@ Todas são **[suposição]**: entram como perguntas na E1.3 e como oferta no tes
   um volume combinado de conteúdo, por exemplo **N matérias de utilidade por mês com licença de uso em toda a rede**
   **[N a definir]**. A plataforma usa esse conteúdo no conteúdo estadual de base, nas páginas vizinhas e como inventário para o
   anúncio estadual.
+- **A conta é por página, não da plataforma inteira** (confirmado pelo proponente em 2026-11-02): cada parceiro sai da fase de
+  entrada quando a **sua** página se paga, mesmo que a plataforma ainda não tenha empatado.
 - **Quando termina ("a página se pagou"):** escolher um gatilho e escrevê-lo no contrato desde o início:
   1. receita própria do parceiro ≥ **R$ X/mês** por 2 meses seguidos **[X a definir]**; ou
   2. a página cobre o próprio custo para a plataforma (infraestrutura + suporte) **[custo a calcular na E1.5]**; ou
