@@ -1,0 +1,73 @@
+# T07 · Registro do app — DAQ Daqui SC
+
+Local: `docs/registro.md` · Fonte do comando `/status`. Atualize a cada etapa.
+
+| Campo | Valor |
+| --- | --- |
+| Sigla | DAQ |
+| Nome | Daqui SC (provisório) |
+| Aberto em | 2026-11-02 |
+| Versão do processo | 1.0 |
+| Dono do produto | Armatta AI Solutions |
+| Construtor | Osni Ribeiro Mello |
+| Negócio | a definir |
+| Suporte | a definir |
+| Dados/LGPD | a definir |
+| Fase atual | F1 |
+| Plataformas | Web (plataforma principal: portal, páginas locais e painéis) |
+| Links | quadro · canal · staging · produção · lojas |
+
+## Etapas
+
+Status: Não iniciada · Em andamento · Em revisão · Concluída · Pulada (justificar)
+
+| Código | Etapa | Status | Data | Saída / observação |
+| --- | --- | --- | --- | --- |
+| E0.1 | Registrar a ideia | Concluída | 2026-11-02 | [T01 rascunho](F1-validar/DAQ-T01-ficha-ideia.md) · cartão no quadro pendente |
+| E0.2 | Abrir o projeto | Concluída | 2026-11-02 | [registro](registro.md) · etiqueta DAQ no quadro pendente |
+| E1.1 | Hipótese e suposições | Concluída | 2026-11-02 | [T01 v1: hipóteses, suposições, crítica, cidades](F1-validar/DAQ-T01-ficha-ideia.md) · aprovada pela equipe em 2026-11-02 |
+| E1.2 | Pesquisa de alternativas | Concluída | 2026-11-02 | [T01: 10 alternativas, reclamações agrupadas, diferencial](F1-validar/DAQ-T01-ficha-ideia.md#alternativas-atuais-e12--pesquisa-de-2026-11-02) · evidência de SC ainda fraca; confirmar na E1.3 |
+| E1.3 | Entrevistas ↻ | Em andamento | 2026-11-02 | [plano e 3 roteiros (parceiro, comércio, leitor)](F1-validar/entrevistas/00-plano.md) · aguarda recrutamento e entrevistas (0 de 8+ de parceiro) |
+| E1.4 | Teste de interesse | Em andamento | 2026-11-02 | [plano, meta e textos A/B](F1-validar/DAQ-E1.4-teste-interesse.md) · [página](../landing/index.html) pronta, não publicada · aguarda aprovação da meta pela equipe |
+| E1.5 | Viabilidade | Não iniciada | | |
+| P1 | Portão 1 · seguir ou parar | Não iniciada | | |
+| E2.1 | PRD | Não iniciada | | |
+| E2.2 | Modelo de negócio | Não iniciada | | |
+| E2.3 | Plano de métricas | Não iniciada | | |
+| E2.4 | Protótipo e teste | Não iniciada | | |
+| E2.5 | Arquitetura | Não iniciada | | |
+| E2.6 | Backlog | Não iniciada | | |
+| P2 | Portão 2 · começar a construir | Não iniciada | | |
+| E3.1 | Setup do projeto | Não iniciada | | |
+| E3.2 | Ciclo de funcionalidade ↻ | Não iniciada | | |
+| E3.3 | Demo semanal ↻ | Não iniciada | | |
+| E3.4 | Documentos legais | Não iniciada | | |
+| E4.1 | Contas e ficha das lojas | Não iniciada | | |
+| E4.2 | Beta nas lojas | Não iniciada | | |
+| E4.3 | Beta fechado | Não iniciada | | |
+| E4.6 | Plano de incidentes | Não iniciada | | |
+| P3 | Portão 3 · pronto para lançar | Não iniciada | | |
+| E4.4 | Plano de lançamento | Não iniciada | | |
+| E4.5 | Suporte | Não iniciada | | |
+| E4.7 | Lançamento gradual | Não iniciada | | |
+| P4 | Portão 4 · lançamento estável | Não iniciada | | |
+| E5.1 | Monitoramento diário ↻ | Não iniciada | | |
+| E5.2 | Manutenção semanal ↻ | Não iniciada | | |
+| E5.3 | Planejamento de versão ↻ | Não iniciada | | |
+| E5.4 | Publicação de versão ↻ | Não iniciada | | |
+| E5.5 | Revisão trimestral ↻ | Não iniciada | | |
+| P5 | Portão 5 · continuar, pivotar ou encerrar | Não iniciada | | |
+| E5.6 | Encerramento | Não iniciada | | |
+
+## Diário
+Uma linha por acontecimento relevante (data · etapa · o que aconteceu). Etapas ↻ registram cada execução aqui.
+
+- 2026-11-02 · E0.1/E0.2 · App aberto com `/novo-app`; ficha T01 em rascunho com o contexto da ideia.
+- 2026-11-02 · E1.1 · Hipóteses (parceiro, leitor, anunciante local e estadual), 7 suposições com metas, crítica cética e 3 cidades-piloto propostas. Em revisão: falta aprovação da equipe. E1.2 não iniciada por pedido do proponente.
+- 2026-11-02 · E1.1 · Correções do proponente: plataforma é web (app de loja fora do escopo inicial); parceiro não paga mensalidade, a taxa é a receita do 1º anúncio local do mês (depois dos 2 primeiros). T01 revisada.
+- 2026-11-02 · E1.2 · 10 alternativas pesquisadas, reclamações em 5 grupos e diferencial (entrada sem investimento + venda, cobrança e relatório prontos). Alertas: franquia Portal da Cidade é concorrente direto do modelo; Pomerode (Jornal de Pomerode) e Rio do Sul (sucursal ND) já têm cobertura e podem render parceiros. Próxima: E1.3 (Produto).
+- 2026-11-02 · E1.2 · Pedido do proponente: estratégias de diferenciação para atrair anunciante, leitor e parceiro (18 ideias, a testar na E1.3/E1.4) e nova regra proposta: taxa do parceiro paga em conteúdo até a página se pagar (gatilho e N a definir).
+- 2026-11-02 · E1.2 · Proponente confirmou: a fase de entrada com taxa em conteúdo vale até cada página se pagar (conta por página, não da plataforma).
+- 2026-11-02 · T01 · Anotado: plataforma única com comunidades por município/bairro; rascunho de custos para a E1.5; gatilho preferido da C1 (≥ 3 anúncios em 2 meses).
+- 2026-11-02 · E1.3 · Iniciada: plano (24 entrevistas: 10 parceiros, 8 comércios, 6 leitores), critério de dor definido antes e 3 roteiros adaptados. Próximo: recrutar e entrevistar em dupla (Produto e Negócio).
+- 2026-11-02 · E1.4 · Preparada em paralelo à E1.3: página de candidatura a parceiro (A/B na taxa: anúncio × conteúdo), meta proposta (≥ 200 visitantes qualificados, ≥ 10% de candidaturas, ≥ 10 cidades) e canais. Não publicada: aguarda aprovação da meta, formulário de destino e contagem de visitas.

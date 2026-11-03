@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daqui SC · Seja o parceiro da sua cidade</title>
+<meta name="description" content="Rede de notícias de Santa Catarina em que cada cidade e bairro tem um parceiro local. Projeto em teste.">
+<meta name="robots" content="noindex">
+<!--
+  DAQ · E1.4 Teste de interesse. Página estática, sem dependências.
+  Antes de publicar (ver docs/F1-validar/DAQ-E1.4-teste-interesse.md, seção 5):
+    1. FORM_ENDPOINT: endereço do serviço de formulário (Formspree, Tally, Apps Script). Vazio = modo de teste, nada é enviado.
+    2. CONTATO_PRIVACIDADE: e-mail para pedidos sobre dados pessoais.
+    3. Contagem de visitas sem cookies: colar o código (Cloudflare Web Analytics ou Plausible) logo abaixo desta linha.
+  Versão: ?v=a ou ?v=b força a versão; sem parâmetro, sorteia e lembra no navegador.
+-->
+<!-- ANALYTICS_SNIPPET -->
+<style>
+  :root{
+    --bg:#fbfaf7; --fg:#1d2321; --muted:#5b6461; --line:#e3e0d8;
+    --card:#ffffff; --accent:#0f6b5c; --accent-fg:#ffffff; --soft:#e8f2ef; --warn:#8a5a00;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#121615; --fg:#ecefed; --muted:#a3aca9; --line:#2a312f;
+      --card:#1a1f1e; --accent:#3fb39d; --accent-fg:#0b1412; --soft:#1d2b28; --warn:#e0b25a; }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--fg);
+    font:17px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+  .wrap{max-width:720px;margin:0 auto;padding:0 16px}
+  header{padding:20px 0 8px}
+  .brand{font-weight:800;letter-spacing:-.01em;font-size:20px}
+  .brand span{color:var(--accent)}
+  .tag{display:inline-block;margin-left:8px;font-size:12px;font-weight:600;color:var(--warn);
+    border:1px solid currentColor;border-radius:999px;padding:1px 8px;vertical-align:middle}
+  h1{font-size:clamp(30px,7vw,44px);line-height:1.12;letter-spacing:-.02em;margin:28px 0 14px}
+  .sub{font-size:19px;color:var(--muted);margin:0 0 24px}
+  .cta{display:inline-block;background:var(--accent);color:var(--accent-fg);text-decoration:none;font-weight:700;
+    padding:14px 22px;border-radius:10px;border:0;font-size:17px;cursor:pointer;width:100%;text-align:center}
+  .cta:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+  @media (min-width:560px){ .cta{width:auto} }
+  section{padding:28px 0;border-top:1px solid var(--line)}
+  h2{font-size:22px;margin:0 0 14px;letter-spacing:-.01em}
+  ol.benef{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+  ol.benef li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+  ol.benef b{display:block;margin-bottom:2px}
+  .price{background:var(--soft);border-radius:12px;padding:16px}
+  .price p{margin:0}
+  form{display:grid;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+  label{font-weight:600;font-size:15px;display:grid;gap:6px}
+  .hint{font-weight:400;color:var(--muted);font-size:14px}
+  input,select{font:inherit;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:8px;
+    padding:11px 12px;width:100%}
+  .check{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:14px;color:var(--muted)}
+  .check input{width:auto;margin-top:4px}
+  .msg{border-radius:10px;padding:14px 16px;background:var(--soft);display:none}
+  .msg.show{display:block}
+  .fine{font-size:14px;color:var(--muted)}
+  footer{padding:28px 0 40px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">Daqui <span>SC</span> <span class="tag">projeto em teste</span></div>
+  </header>
+
+  <main>
+    <h1>A notícia da sua cidade pode virar o seu negócio.</h1>
+    <p class="sub">Uma rede de notícias de Santa Catarina em que cada cidade e bairro tem um parceiro local.
+      Você publica; a plataforma entrega a página, a venda de anúncios, a cobrança e o relatório para o comércio.</p>
+    <a class="cta" href="#candidatura" data-evt="cta_topo">Quero ser o parceiro da minha cidade</a>
+
+    <section aria-labelledby="t-benef">
+      <h2 id="t-benef">O que você recebe</h2>
+      <ol class="benef">
+        <li><b>Venda sem improviso</b>Tabela de preços, contrato, cobrança por Pix e nota fiscal prontos.</li>
+        <li><b>Prova de resultado para o comércio</b>Cada anúncio tem botão de WhatsApp, e o anunciante recebe um relatório todo mês.</li>
+        <li><b>Sua marca, sua cidade</b>A comunidade da sua cidade é sua, e você pode trazer a página que já tem.</li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="t-preco">
+      <h2 id="t-preco">Quanto custa</h2>
+      <div class="price">
+        <p data-versao="a">Você não paga mensalidade. A plataforma fica com a receita do 1º anúncio que você vender no mês.
+          Todos os outros anúncios locais são 100% seus.</p>
+        <p data-versao="b" hidden>Você não paga mensalidade nem entrega anúncio no começo. Até a sua página se pagar, você cede
+          algumas matérias de serviço por mês para a rede. Depois, a plataforma fica só com a receita do 1º anúncio do mês.
+          O resto é 100% seu.</p>
+      </div>
+      <p class="fine">O projeto está em fase de teste. As regras finais serão apresentadas por escrito antes de qualquer acordo.</p>
+    </section>
+
+    <section id="candidatura" aria-labelledby="t-form">
+      <h2 id="t-form">Candidate-se para a sua cidade</h2>
+      <form id="form" novalidate>
+        <label>Cidade ou bairro de SC onde você publica
+          <input name="cidade" required autocomplete="address-level2" placeholder="ex.: Pomerode, ou Campeche (Florianópolis)">
+        </label>
+        <label>O que você faz hoje
+          <select name="perfil" required>
+            <option value="">Escolha</option>
+            <option>Tenho página ou perfil de notícias da cidade</option>
+            <option>Sou jornalista</option>
+            <option>Trabalho em rádio</option>
+            <option>Tenho jornal ou portal</option>
+            <option>Administro grupo de WhatsApp da cidade</option>
+            <option>Outro</option>
+          </select>
+        </label>
+        <label>Tamanho da sua audiência hoje <span class="hint">seguidores, membros ou ouvintes, somando tudo</span>
+          <select name="audiencia" required>
+            <option value="">Escolha</option>
+            <option value="0">Ainda não tenho</option>
+            <option value="ate-1k">Até 1 mil</option>
+            <option value="1k-5k">1 a 5 mil</option>
+            <option value="5k-20k">5 a 20 mil</option>
+            <option value="20k+">Mais de 20 mil</option>
+          </select>
+        </label>
+        <label>Você já vende anúncio ou "publi"?
+          <select name="vende" required>
+            <option value="">Escolha</option>
+            <option value="sim-regular">Sim, todo mês</option>
+            <option value="sim-as-vezes">Às vezes</option>
+            <option value="nao">Não</option>
+          </select>
+        </label>
+        <label>Como prefere ser chamado(a)
+          <input name="apelido" required autocomplete="given-name">
+        </label>
+        <label>WhatsApp ou e-mail para contato
+          <input name="contato" required autocomplete="email" inputmode="email">
+        </label>
+        <label class="check">
+          <input type="checkbox" name="consentimento" required>
+          <span>Aceito ser contatado(a) sobre este projeto. Meus dados serão usados só para isso e posso pedir a remoção quando quiser
+            (<a id="link-privacidade" href="#">contato</a>). Candidatar-se não é contrato nem garante a cidade.</span>
+        </label>
+        <input type="hidden" name="versao">
+        <input type="hidden" name="utm_source">
+        <input type="hidden" name="utm_campaign">
+        <button class="cta" type="submit">Quero ser o parceiro da minha cidade</button>
+        <div class="msg" id="msg" role="status" aria-live="polite"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    Daqui SC (nome provisório) · projeto em teste de Armatta AI Solutions · Santa Catarina
+  </footer>
+</div>
+
+<script>
+(function(){
+  // ---- Configuração (preencher antes de publicar) ----
+  var FORM_ENDPOINT = "";          // vazio = modo de teste: nada é enviado
+  var CONTATO_PRIVACIDADE = "";    // ex.: privacidade@dominio.com.br
+
+  function safeGet(k){ try { return localStorage.getItem(k); } catch(e){ return null; } }
+  function safeSet(k,v){ try { localStorage.setItem(k,v); } catch(e){} }
+  function evento(nome, props){
+    // Sem dados pessoais nas propriedades.
+    try { if (window.plausible) window.plausible(nome, {props: props}); } catch(e){}
+  }
+
+  // ---- Versão A/B ----
+  var params = new URLSearchParams(location.search);
+  var v = (params.get("v") || "").toLowerCase();
+  if (v !== "a" && v !== "b") {
+    v = safeGet("daq_v");
+    if (v !== "a" && v !== "b") { v = Math.random() < 0.5 ? "a" : "b"; }
+  }
+  safeSet("daq_v", v);
+  document.querySelectorAll("[data-versao]").forEach(function(el){
+    el.hidden = el.getAttribute("data-versao") !== v;
+  });
+  document.documentElement.setAttribute("data-versao", v);
+  evento("visita", {versao: v, utm_source: params.get("utm_source") || "direto"});
+
+  // ---- Campos ocultos ----
+  var form = document.getElementById("form");
+  function preencherOcultos(){
+    form.versao.value = v;
+    form.utm_source.value = params.get("utm_source") || "";
+    form.utm_campaign.value = params.get("utm_campaign") || "";
+  }
+  preencherOcultos();
+
+  var link = document.getElementById("link-privacidade");
+  if (CONTATO_PRIVACIDADE) { link.href = "mailto:" + CONTATO_PRIVACIDADE; link.textContent = CONTATO_PRIVACIDADE; }
+
+  document.querySelectorAll("[data-evt]").forEach(function(el){
+    el.addEventListener("click", function(){ evento(el.getAttribute("data-evt"), {versao: v}); });
+  });
+
+  // ---- Envio ----
+  var msg = document.getElementById("msg");
+  function mostrar(texto){ msg.textContent = texto; msg.classList.add("show"); }
+
+  form.addEventListener("submit", function(ev){
+    ev.preventDefault();
+    if (!form.checkValidity()) {
+      var primeiro = form.querySelector(":invalid");
+      if (primeiro) primeiro.focus();
+      mostrar("Preencha todos os campos e marque o aceite para enviar.");
+      return;
+    }
+    var dados = {};
+    new FormData(form).forEach(function(valor, chave){ dados[chave] = valor; });
+    dados.consentimento = "sim";
+    dados.enviado_em = new Date().toISOString();
+
+    if (!FORM_ENDPOINT) {
+      mostrar("Modo de teste: a candidatura não foi enviada (FORM_ENDPOINT vazio). Versão " + v.toUpperCase() + ".");
+      return;
+    }
+    var botao = form.querySelector("button[type=submit]");
+    botao.disabled = true;
+    fetch(FORM_ENDPOINT, {
+      method: "POST",
+      headers: {"Content-Type": "application/json", "Accept": "application/json"},
+      body: JSON.stringify(dados)
+    }).then(function(r){
+      if (!r.ok) throw new Error("http " + r.status);
+      evento("candidatura", {versao: v, utm_source: dados.utm_source || "direto", audiencia: dados.audiencia});
+      form.reset();
+      preencherOcultos();
+      mostrar("Recebemos a sua candidatura. Vamos entrar em contato para conversar sobre a sua cidade.");
+    }).catch(function(){
+      mostrar("Não conseguimos enviar agora. Tente de novo em alguns minutos.");
+    }).finally(function(){ botao.disabled = false; });
+  });
+})();
+</script>
+</body>
+</html>

@@ -8,3 +8,4 @@ A partir da etapa E3.1 o app ganha um repositório próprio no GitHub e a pasta 
 
 | Sigla | App | Fase | Repositório |
 | --- | --- | --- | --- |
+| DAQ | [Daqui SC](daq-app/docs/registro.md) | F1 | — |
