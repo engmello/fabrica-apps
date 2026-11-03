@@ -28,7 +28,7 @@ Status: Não iniciada · Em andamento · Em revisão · Concluída · Pulada (ju
 | E1.1 | Hipótese e suposições | Concluída | 2026-11-02 | [T01 v1: hipóteses, suposições, crítica, cidades](F1-validar/DAQ-T01-ficha-ideia.md) · aprovada pela equipe em 2026-11-02 |
 | E1.2 | Pesquisa de alternativas | Concluída | 2026-11-02 | [T01: 10 alternativas, reclamações agrupadas, diferencial](F1-validar/DAQ-T01-ficha-ideia.md#alternativas-atuais-e12--pesquisa-de-2026-11-02) · evidência de SC ainda fraca; confirmar na E1.3 |
 | E1.3 | Entrevistas ↻ | Em andamento | 2026-11-02 | [plano e 3 roteiros (parceiro, comércio, leitor)](F1-validar/entrevistas/00-plano.md) · aguarda recrutamento e entrevistas (0 de 8+ de parceiro) |
-| E1.4 | Teste de interesse | Não iniciada | | |
+| E1.4 | Teste de interesse | Em andamento | 2026-11-02 | [plano, meta e textos A/B](F1-validar/DAQ-E1.4-teste-interesse.md) · [página](../landing/index.html) pronta, não publicada · aguarda aprovação da meta pela equipe |
 | E1.5 | Viabilidade | Não iniciada | | |
 | P1 | Portão 1 · seguir ou parar | Não iniciada | | |
 | E2.1 | PRD | Não iniciada | | |
@@ -70,3 +70,4 @@ Uma linha por acontecimento relevante (data · etapa · o que aconteceu). Etapas
 - 2026-11-02 · E1.2 · Proponente confirmou: a fase de entrada com taxa em conteúdo vale até cada página se pagar (conta por página, não da plataforma).
 - 2026-11-02 · T01 · Anotado: plataforma única com comunidades por município/bairro; rascunho de custos para a E1.5; gatilho preferido da C1 (≥ 3 anúncios em 2 meses).
 - 2026-11-02 · E1.3 · Iniciada: plano (24 entrevistas: 10 parceiros, 8 comércios, 6 leitores), critério de dor definido antes e 3 roteiros adaptados. Próximo: recrutar e entrevistar em dupla (Produto e Negócio).
+- 2026-11-02 · E1.4 · Preparada em paralelo à E1.3: página de candidatura a parceiro (A/B na taxa: anúncio × conteúdo), meta proposta (≥ 200 visitantes qualificados, ≥ 10% de candidaturas, ≥ 10 cidades) e canais. Não publicada: aguarda aprovação da meta, formulário de destino e contagem de visitas.

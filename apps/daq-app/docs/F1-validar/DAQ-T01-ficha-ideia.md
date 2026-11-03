@@ -363,13 +363,18 @@ Fontes consultadas em 2026-11-02:
 - Surpresas:
 
 ## Teste de interesse
+
+Plano, textos A/B, canais e checklist: [DAQ-E1.4-teste-interesse](DAQ-E1.4-teste-interesse.md) · página: `apps/daq-app/landing/index.html`.
+**Meta proposta, aguarda aprovação da equipe antes de publicar.**
+
 | Item | Valor |
 | --- | --- |
-| Tipo (lista de espera / pré-venda) | |
-| Meta fixada antes | |
+| Tipo (lista de espera / pré-venda) | Candidatura a parceiro da cidade (público: parceiro). A/B na forma de entrada: A = taxa em anúncio; B = começa pagando em conteúdo |
+| Meta fixada antes | ≥ 200 visitantes qualificados; ≥ 10% de candidaturas; ≥ 10 cidades/bairros; ≥ 1 candidato por cidade-piloto; ≥ 50% com audiência ≥ 1 mil **[aguarda aprovação]** |
 | Visitantes qualificados | |
 | Conversões | |
 | Taxa | |
+| Versão A × B | |
 
 ## Viabilidade
 
