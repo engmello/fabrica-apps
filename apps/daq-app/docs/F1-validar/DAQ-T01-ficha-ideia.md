@@ -41,7 +41,11 @@ Região: Santa Catarina, por município; nas cidades maiores (ex.: Florianópoli
 - Preço do anúncio local (e, portanto, o valor da taxa): **não definido**; testar na validação.
 
 ## Funcionalidades previstas (rascunho, não é escopo do MVP)
-- Página padronizada por município/bairro: texto, fotos, vídeos e integração forte com redes sociais (compartilhar, publicar, trazer conteúdo).
+- **Uma plataforma única** (um sistema, um banco de dados, um endereço, ex.: `daquisc.com.br`), em que **cada município ou bairro é
+  uma comunidade de notícias** com endereço próprio (ex.: `daquisc.com.br/pomerode`, `daquisc.com.br/floripa/campeche`). Abrir um
+  município é cadastrar a comunidade e ligar um parceiro: não há site, servidor ou custo de criação por município. Todas usam o
+  mesmo formato, painel, anúncio e relatório; o leitor pode seguir mais de uma; o anúncio estadual aparece em várias de uma vez.
+- Página padronizada por comunidade: texto, fotos, vídeos e integração forte com redes sociais (compartilhar, publicar, trazer conteúdo).
 - Notícia em formato padrão: título, resumo, corpo, mídia, categoria, local, autor.
 - Participação do leitor com fila de moderação do parceiro e canal de denúncia para a plataforma.
 - Espaços de anúncio locais e estaduais, relatório para o anunciante e cálculo automático de repasses.
@@ -316,6 +320,8 @@ Todas são **[suposição]**: entram como perguntas na E1.3 e como oferta no tes
   1. receita própria do parceiro ≥ **R$ X/mês** por 2 meses seguidos **[X a definir]**; ou
   2. a página cobre o próprio custo para a plataforma (infraestrutura + suporte) **[custo a calcular na E1.5]**; ou
   3. um prazo máximo (ex.: 6 meses), o que vier primeiro.
+  **Opção preferida [a decidir]:** "o parceiro vendeu ≥ 3 anúncios em 2 meses seguidos", ou o prazo máximo. Pela estimativa de
+  custos (seção Viabilidade), a comunidade custa pouco em tecnologia; o que importa é o parceiro conseguir abrir mão de 1 anúncio.
   Depois do gatilho entra a regra normal: 1º anúncio do mês e, mais tarde, os 2 primeiros.
 - **O que resolve:** o problema do "mês sem venda" (Crítica, item 3) e a barreira de entrada, que é a reclamação contra a franquia.
 - **Riscos [a confirmar]:**
@@ -366,6 +372,29 @@ Fontes consultadas em 2026-11-02:
 | Taxa | |
 
 ## Viabilidade
+
+### Rascunho de custos (2026-11-02 · base para a E1.5; tudo **[estimativa]**, câmbio ~R$ 5,50/US$ **[a confirmar]**)
+
+A plataforma é única; cada comunidade (município ou bairro) usa uma fatia dela. Custo de tecnologia por comunidade começa perto de
+zero e cresce com o uso. O que pesa é a **base comum** (existe com 1 ou 100 comunidades) e o **tempo de suporte por parceiro**.
+
+| Custo | Onde fica | Estimativa |
+| --- | --- | --- |
+| Infraestrutura (hospedagem, banco, fotos, tráfego) | Uma conta só, rateada | R$ 200–600/mês no início; cresce devagar com leitores e fotos |
+| Fatia de cada comunidade | Rateio | R$ 0 para abrir; poucos reais/mês com pouco uso; R$ 10–50/mês madura |
+| Vídeo | Embutir do YouTube/Instagram, não hospedar | ~R$ 0 |
+| Cobrança (Pix) e nota fiscal | Por anúncio vendido | Pequeno; R$ 10–30/mês por comunidade madura |
+| WhatsApp | Relatório ao anunciante pela API (~R$ 0,05–0,35/mensagem); resumo ao leitor por **Canal do WhatsApp** (grátis) | ~R$ 1–5/mês por comunidade |
+| Suporte e moderação de 2º nível | Por parceiro (1–3 h/mês a R$ 50–80/h) | R$ 50–240/mês por parceiro; maior custo variável |
+| Entrada do parceiro (treino, configuração) | Uma vez por parceiro (4–8 h) | R$ 200–640; menos com tutorial automatizado |
+| Contador e emissor de nota | Plataforma | R$ 300–800/mês |
+| Parecer jurídico e contratos | Plataforma, uma vez | R$ 5–15 mil |
+| Construção do MVP | Plataforma | Tempo do construtor (com IA); vira dinheiro só se contratar |
+| Equipe (comercial estadual, suporte, moderação) | Plataforma | R$ 0 no início; os R$ 30–40 mil/mês da crítica só entram com escala |
+
+**O que pode estourar o custo:** hospedar vídeo próprio, mandar mensagem a leitores pela API do WhatsApp e moderar tudo
+manualmente na plataforma. As três têm alternativa barata na tabela.
+
 | Item | Pessimista | Provável | Otimista |
 | --- | --- | --- | --- |
 | Custo para construir o MVP (R$) | | | |
