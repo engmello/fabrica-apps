@@ -27,7 +27,7 @@ Status: Não iniciada · Em andamento · Em revisão · Concluída · Pulada (ju
 | E0.2 | Abrir o projeto | Concluída | 2026-11-02 | [registro](registro.md) · etiqueta DAQ no quadro pendente |
 | E1.1 | Hipótese e suposições | Concluída | 2026-11-02 | [T01 v1: hipóteses, suposições, crítica, cidades](F1-validar/DAQ-T01-ficha-ideia.md) · aprovada pela equipe em 2026-11-02 |
 | E1.2 | Pesquisa de alternativas | Concluída | 2026-11-02 | [T01: 10 alternativas, reclamações agrupadas, diferencial](F1-validar/DAQ-T01-ficha-ideia.md#alternativas-atuais-e12--pesquisa-de-2026-11-02) · evidência de SC ainda fraca; confirmar na E1.3 |
-| E1.3 | Entrevistas ↻ | Não iniciada | | |
+| E1.3 | Entrevistas ↻ | Em andamento | 2026-11-02 | [plano e 3 roteiros (parceiro, comércio, leitor)](F1-validar/entrevistas/00-plano.md) · aguarda recrutamento e entrevistas (0 de 8+ de parceiro) |
 | E1.4 | Teste de interesse | Não iniciada | | |
 | E1.5 | Viabilidade | Não iniciada | | |
 | P1 | Portão 1 · seguir ou parar | Não iniciada | | |
@@ -68,3 +68,5 @@ Uma linha por acontecimento relevante (data · etapa · o que aconteceu). Etapas
 - 2026-11-02 · E1.2 · 10 alternativas pesquisadas, reclamações em 5 grupos e diferencial (entrada sem investimento + venda, cobrança e relatório prontos). Alertas: franquia Portal da Cidade é concorrente direto do modelo; Pomerode (Jornal de Pomerode) e Rio do Sul (sucursal ND) já têm cobertura e podem render parceiros. Próxima: E1.3 (Produto).
 - 2026-11-02 · E1.2 · Pedido do proponente: estratégias de diferenciação para atrair anunciante, leitor e parceiro (18 ideias, a testar na E1.3/E1.4) e nova regra proposta: taxa do parceiro paga em conteúdo até a página se pagar (gatilho e N a definir).
 - 2026-11-02 · E1.2 · Proponente confirmou: a fase de entrada com taxa em conteúdo vale até cada página se pagar (conta por página, não da plataforma).
+- 2026-11-02 · T01 · Anotado: plataforma única com comunidades por município/bairro; rascunho de custos para a E1.5; gatilho preferido da C1 (≥ 3 anúncios em 2 meses).
+- 2026-11-02 · E1.3 · Iniciada: plano (24 entrevistas: 10 parceiros, 8 comércios, 6 leitores), critério de dor definido antes e 3 roteiros adaptados. Próximo: recrutar e entrevistar em dupla (Produto e Negócio).
